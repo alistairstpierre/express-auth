@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const encrypt = require("mongoose-encryption");
 const ejs = require("ejs");
 
-mongoose.connect(process.env.ATLAS_URI);
+mongoose.connect("mongodb+srv://2dsparrow:1q0p2w9o@cluster0.s9qyi96.mongodb.net/userDB");
 
 const app = express();
 
